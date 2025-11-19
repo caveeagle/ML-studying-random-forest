@@ -13,7 +13,7 @@ import pickle
 import time
 #############################################
 
-filename = '../data/fitted_dataset.csv'
+filename = '../data/fitted_dataset_v4.csv'
 
 df = pd.read_csv(filename, delimiter=',')
 
@@ -23,9 +23,11 @@ df = pd.read_csv(filename, delimiter=',')
 
 TEST_SIZE = 0.2
 
-RANDOM_SEED = 2020
+RANDOM_SEED = 444
 
 TREES_NUMBER = 200
+
+MIN_LEAFS_NUM = 1
 
 MAX_DEPTH = None
 
@@ -52,7 +54,7 @@ start_time = time.perf_counter()
 
 model = RandomForestRegressor(n_estimators=TREES_NUMBER,
                               max_depth=MAX_DEPTH,
-                              min_samples_leaf=MIN_LEAFS_NUM
+                              min_samples_leaf=MIN_LEAFS_NUM,
                               random_state=RANDOM_SEED)
 
 model.fit(X_train, y_train)

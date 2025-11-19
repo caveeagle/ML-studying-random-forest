@@ -16,7 +16,7 @@ import logging
 import time
 #############################################
 
-filename = '../data/fitted_dataset.csv'
+filename = '../data/fitted_dataset_v4.csv'
 
 df = pd.read_csv(filename, delimiter=',')
 
@@ -32,7 +32,7 @@ console_handler = logging.StreamHandler()
 logger.addHandler(console_handler)
 
 # handler for file
-file_handler = logging.FileHandler('log.txt')
+file_handler = logging.FileHandler('log_02.txt')
 logger.addHandler(file_handler)
 
 #############################################
@@ -46,12 +46,7 @@ TREES_NUMBER_SET = [100,200,300,400,500]
 
 MAX_DEPTH_SET = [None,10,15,20,25]
 
-MIN_LEAFS_NUM = [1, 2, 3, 4, 5, 8]
-
-#TREES_NUMBER_SET = [100,200]
-#MAX_DEPTH_SET = [None]
-#MIN_LEAFS_NUM = [1, 2]
-
+MIN_LEAFS_NUM = [1, 2, 3, 4]
 
 #############################################
 #############################################
@@ -87,7 +82,7 @@ grid = GridSearchCV(
     param_grid,
     cv=5,            # 5-fold cross-validation
     scoring='r2',  
-    n_jobs=4
+    n_jobs=3
 )
 
 grid.fit(X_train, y_train)
