@@ -1,0 +1,56 @@
+Begin to work...
+
+Begin to work...
+
+
+Timer: 36 sec
+
+{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.8}
+Best R2: 0.7475910939501069
+
+Task completed!
+Begin to work...
+
+
+Timer: 112 sec
+
+{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 500, 'subsample': 0.8}
+Best R2: 0.7585601682521623
+
+Task completed!
+Begin to work...
+
+
+Timer: 72 sec
+
+{'learning_rate': 0.05, 'max_depth': 4, 'n_estimators': 300, 'subsample': 0.8}
+Best R2: 0.7684456472053599
+
+Task completed!
+Begin to work...
+
+
+Timer: 92 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Best R2: 0.7935340615668219
+
+Task completed!
+Begin to work...
+
+
+Timer: 138 sec
+
+{'learning_rate': 0.05, 'max_depth': 6, 'n_estimators': 300, 'subsample': 0.8}
+Best R2: 0.7974250621035915
+
+Task completed!
+Begin to work...
+
+
+Timer: 133 sec
+
+{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.8}
+Best R2: 0.7954947234028575
+
+Task completed!
