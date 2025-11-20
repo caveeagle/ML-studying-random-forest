@@ -1,5 +1,5 @@
 """
-Random Forest model
+Gradient boosting model
 """
 import pandas as pd
 import numpy as np
@@ -10,6 +10,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import GridSearchCV
+
 
 import time
 #############################################
@@ -45,9 +46,9 @@ start_time = time.perf_counter()
 ###  Model training   ###
 
 model = GradientBoostingRegressor(
-    n_estimators=300,
+    n_estimators=800,
     learning_rate=0.05,
-    max_depth=3,
+    max_depth=5,
     subsample=0.8
 )
 

@@ -9,6 +9,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import GridSearchCV
 
+from service_functions import send_telegramm_message
 
 import pickle
 import logging
@@ -39,11 +40,11 @@ logger.addHandler(file_handler)
 
 ###  PARAMETERS SETS ###
 
-#TREES_NUMBER_SET = [300,500,800]
-TREES_NUMBER_SET = [300]
+TREES_NUMBER_SET = [800,1200]
+#TREES_NUMBER_SET = [300]
 
 
-MAX_DEPTH_SET = [5,6,7]
+MAX_DEPTH_SET = [5,7]
 #MAX_DEPTH_SET = [5]
 
 LEARNING_RATE_SET = [0.05]
@@ -104,5 +105,7 @@ logger.info(f"Best R2: {grid.best_score_}")
 #############################################
 
 logger.info('\nTask completed!')
+
+send_telegramm_message("Job completed")
 
 #############################################

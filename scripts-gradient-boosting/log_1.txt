@@ -54,3 +54,23 @@ Timer: 133 sec
 Best R2: 0.7954947234028575
 
 Task completed!
+Begin to work...
+
+
+Timer: 871 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 800, 'subsample': 0.8}
+Best R2: 0.8025540309299736
+
+Task completed!
+Begin to work...
+
+
+Timer: 598 sec
+
+{'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 1200, 'subsample': 0.8}
+Best R2: 0.7928986432026981
+
+Task completed!
+Starting new HTTPS connection (1): api.telegram.org:443
+https://api.telegram.org:443 "POST /bot8132883086:AAG6kzqfO52XAyB2hI4VPMWHRRsMUNOaSFk/sendMessage HTTP/1.1" 200 293
