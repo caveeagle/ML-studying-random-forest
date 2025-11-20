@@ -13,7 +13,7 @@ import pickle
 import time
 #############################################
 
-filename = '../data/fitted_dataset.csv'
+filename = '../data/preproc_dataset_v4_amine.csv'
 
 df = pd.read_csv(filename, delimiter=',')
 
@@ -84,7 +84,7 @@ print(f'R2 = {r2:.3f}')
 
 #############################################
 
-SAVE_MODEL = 1
+SAVE_MODEL = 0
 
 models_file_name = '../models/random_forest_best_model.pkl'
 

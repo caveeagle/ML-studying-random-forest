@@ -13,7 +13,7 @@ import pickle
 import time
 #############################################
 
-filename = '../data/fitted_dataset_v4.csv'
+filename = '../data/preproc_dataset_v4_amine.csv'
 
 df = pd.read_csv(filename, delimiter=',')
 
@@ -23,7 +23,7 @@ df = pd.read_csv(filename, delimiter=',')
 
 TEST_SIZE = 0.2
 
-RANDOM_SEED = 444
+RANDOM_SEED = None
 
 TREES_NUMBER = 200
 

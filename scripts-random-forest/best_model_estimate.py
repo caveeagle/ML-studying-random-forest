@@ -13,7 +13,7 @@ import logging
 import time
 #############################################
 
-filename = '../data/fitted_dataset.csv'
+filename = '../data/preproc_dataset_v4_amine.csv'
 
 df = pd.read_csv(filename, delimiter=',')
 
@@ -21,11 +21,11 @@ df = pd.read_csv(filename, delimiter=',')
 
 ###  PARAMETERS  ###
 
-TEST_SIZE = 0.15
+TEST_SIZE = 0.2
 
 TREES_NUMBER = 300
 
-MODEL_CYCLES_NUM = 10
+MODEL_CYCLES_NUM = 5
 
 #############################################
 
@@ -54,7 +54,7 @@ for n in range(MODEL_CYCLES_NUM):
     
     model = RandomForestRegressor(n_estimators=TREES_NUMBER,
                                   max_depth=None,
-                                  min_samples_leaf=2,
+                                  min_samples_leaf=1,
                                   random_state=None)
     
     model.fit(X_train, y_train)
