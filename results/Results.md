@@ -52,5 +52,5 @@ R2: **0.804**
 The model was tested for overfitting. It is stable and shows no signs of overfitting.
 
 ### KNN model
-**KNN model not suitable for this task, R2 < 0.3**
+**KNN model not suitable for this task, R2 < 0.5**
 

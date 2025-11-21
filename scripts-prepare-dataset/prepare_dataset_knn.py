@@ -13,7 +13,7 @@ df = pd.read_csv(filename, delimiter=',')
 
 most_valuable_cols = ['price','rooms','area','property_type',
                       'has_equipped_kitchen','garage','has_garden',
-                      'cadastral_income', 'has_swimming_pool','build_year']
+                      'cadastral_income', 'has_swimming_pool','build_year','postal_code']
 
 df = df[most_valuable_cols]
 
@@ -57,7 +57,7 @@ df['area'] = df['area'].fillna(df['area'].median())
 
 ##################################################################
 
-col_for_scale = ['area','rooms','cadastral_income','build_year']
+col_for_scale = ['area','rooms','cadastral_income','build_year','postal_code']
 
 scaler = StandardScaler()
 
