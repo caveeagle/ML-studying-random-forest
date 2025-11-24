@@ -36,13 +36,14 @@ start_time = time.perf_counter()
 ################################
 
 model = GradientBoostingRegressor(
-    n_estimators=800,
+    n_estimators=1200,
     learning_rate=0.05,
     max_depth=5,
+    subsample=0.9,
     random_state=None
 )
 
-kf = KFold(n_splits=5, shuffle=True, random_state=202)
+kf = KFold(n_splits=5, shuffle=True, random_state=None)
 
 scores = cross_val_score(model, X, y, cv=kf, scoring='r2')
 

@@ -40,23 +40,34 @@ logger.addHandler(file_handler)
 
 ###  PARAMETERS SETS ###
 
-TREES_NUMBER_SET = [800,1200,1600,2000,3000]
+TREES_NUMBER_SET = [300,800,1200,1500,2000]
 #TREES_NUMBER_SET = [300]
 
 
 #MAX_DEPTH_SET = [3,5,7,9]
-MAX_DEPTH_SET = [5]
+MAX_DEPTH_SET = [3,5]
 
 LEARNING_RATE_SET = [0.05]
 #LEARNING_RATE_SET = [0.03, 0.04, 0.05, 0.06, 0.07]
 
-SUBSAMPLE_SET = [0.8]
+SUBSAMPLE_SET = [0.9]
 #SUBSAMPLE_SET = [0.5, 0.7, 0.8, 0.9, 1.0]
+
+N_FOLD = 5
+#N_FOLD = 3
 
 #############################################
 #############################################
 #############################################
-logger.info('Begin to work...\n')
+logger.info('Begin to work...')
+logger.info('GRID PARAMS:')
+
+grid_str = f'TREES_NUMBER_SET = {TREES_NUMBER_SET}\n'
+grid_str += f'MAX_DEPTH_SET = {MAX_DEPTH_SET}\n'
+grid_str += f'LEARNING_RATE_SET = {LEARNING_RATE_SET}\n'
+grid_str += f'SUBSAMPLE_SET = {SUBSAMPLE_SET}\n\n'
+
+logger.info(grid_str)
 
 ###  Split dataset  ###
 
@@ -84,10 +95,11 @@ param_grid = {
 grid = GridSearchCV(
     GradientBoostingRegressor(random_state=None),
     param_grid,
-    cv=5,            # 5-fold cross-validation
+    cv=N_FOLD,    # N-fold cross-validation
     scoring='r2',
-    verbose=2,  
-    n_jobs=-1
+    verbose=2,
+    return_train_score=True,  
+    n_jobs=3 # ! Changed!
 )
 
 
@@ -103,13 +115,21 @@ logger.info(f"\nTimer: {elapsed_time:.0f} sec\n")
 logger.info(grid.best_params_)
 logger.info(f"Best R2: {grid.best_score_}")
 
+
+if 'mean_train_score' in grid.cv_results_:
+    
+    results = grid.cv_results_
+    
+    for mean_train, mean_test, params in zip(results['mean_train_score'], results['mean_test_score'], results['params']):
+        logger.info(f"Train R2: {mean_train:.4f}, Test R2: {mean_test:.4f}, Params: {params}")
+
 #############################################
 #############################################
 #############################################
 
-logger.info('\nTask completed!')
+logger.info('\nTask completed!\n\n')
 
-if(1):
+if(0):
     send_telegramm_message("Job completed")
 
 #############################################

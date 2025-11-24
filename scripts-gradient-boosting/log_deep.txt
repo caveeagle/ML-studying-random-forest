@@ -1,0 +1,303 @@
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [800, 1200, 1600, 2000, 3000]
+MAX_DEPTH_SET = [5]
+MAX_DEPTH_SET = [5]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.8]
+
+
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [800, 1200, 1600, 2000, 3000]
+MAX_DEPTH_SET = [5]
+MAX_DEPTH_SET = [5]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.8]
+
+
+
+Timer: 298 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 3000, 'subsample': 0.8}
+Best R2: 0.801061844854236
+
+Task completed!
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [800, 1200, 2000, 3000, 5000]
+MAX_DEPTH_SET = [5]
+MAX_DEPTH_SET = [5]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.8]
+
+
+
+Timer: 463 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 5000, 'subsample': 0.8}
+Best R2: 0.8005573530497986
+
+Task completed!
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [300, 500, 800]
+MAX_DEPTH_SET = [5]
+MAX_DEPTH_SET = [5]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.8]
+
+
+
+Timer: 72 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 800, 'subsample': 0.8}
+Best R2: 0.7966648263211328
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [300, 500, 800]
+MAX_DEPTH_SET = [5]
+MAX_DEPTH_SET = [5]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.8]
+
+
+
+Timer: 71 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 800, 'subsample': 0.8}
+Best R2: 0.7921794213558586
+Train R2: 0.8962, Test R2: 0.7771, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9235, Test R2: 0.7869, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 500, 'subsample': 0.8}
+Train R2: 0.9455, Test R2: 0.7922, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 800, 'subsample': 0.8}
+
+Task completed!
+
+
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [300, 400, 500, 700, 800]
+MAX_DEPTH_SET = [5]
+MAX_DEPTH_SET = [5]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.8]
+
+
+
+Timer: 150 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 800, 'subsample': 0.8}
+Best R2: 0.8060164517200853
+Train R2: 0.8921, Test R2: 0.7896, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9075, Test R2: 0.7955, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 400, 'subsample': 0.8}
+Train R2: 0.9196, Test R2: 0.7999, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 500, 'subsample': 0.8}
+Train R2: 0.9357, Test R2: 0.8032, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 700, 'subsample': 0.8}
+Train R2: 0.9418, Test R2: 0.8060, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 800, 'subsample': 0.8}
+
+Task completed!
+
+===============================================
+
+
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [300]
+MAX_DEPTH_SET = [3, 5, 7, 9]
+MAX_DEPTH_SET = [3, 5, 7, 9]
+LEARNING_RATE_SET = [0.03, 0.04, 0.05, 0.06, 0.07]
+SUBSAMPLE_SET = [0.5, 0.7, 0.8, 0.9, 1.0]
+
+
+
+Timer: 840 sec
+
+{'learning_rate': 0.07, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.7}
+Best R2: 0.7878022069165992
+Train R2: 0.7671, Test R2: 0.7129, Params: {'learning_rate': 0.03, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.7665, Test R2: 0.7114, Params: {'learning_rate': 0.03, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.7663, Test R2: 0.7107, Params: {'learning_rate': 0.03, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.7649, Test R2: 0.7085, Params: {'learning_rate': 0.03, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.7615, Test R2: 0.7049, Params: {'learning_rate': 0.03, 'max_depth': 3, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.8637, Test R2: 0.7603, Params: {'learning_rate': 0.03, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.8689, Test R2: 0.7601, Params: {'learning_rate': 0.03, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.8697, Test R2: 0.7625, Params: {'learning_rate': 0.03, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.8683, Test R2: 0.7579, Params: {'learning_rate': 0.03, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.8651, Test R2: 0.7548, Params: {'learning_rate': 0.03, 'max_depth': 5, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9275, Test R2: 0.7783, Params: {'learning_rate': 0.03, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9358, Test R2: 0.7770, Params: {'learning_rate': 0.03, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9374, Test R2: 0.7773, Params: {'learning_rate': 0.03, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9382, Test R2: 0.7764, Params: {'learning_rate': 0.03, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9354, Test R2: 0.7712, Params: {'learning_rate': 0.03, 'max_depth': 7, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9650, Test R2: 0.7863, Params: {'learning_rate': 0.03, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9732, Test R2: 0.7822, Params: {'learning_rate': 0.03, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9755, Test R2: 0.7820, Params: {'learning_rate': 0.03, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9764, Test R2: 0.7759, Params: {'learning_rate': 0.03, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9747, Test R2: 0.7662, Params: {'learning_rate': 0.03, 'max_depth': 9, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.7862, Test R2: 0.7246, Params: {'learning_rate': 0.04, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.7872, Test R2: 0.7244, Params: {'learning_rate': 0.04, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.7849, Test R2: 0.7246, Params: {'learning_rate': 0.04, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.7844, Test R2: 0.7220, Params: {'learning_rate': 0.04, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.7788, Test R2: 0.7183, Params: {'learning_rate': 0.04, 'max_depth': 3, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.8823, Test R2: 0.7684, Params: {'learning_rate': 0.04, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.8869, Test R2: 0.7700, Params: {'learning_rate': 0.04, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.8865, Test R2: 0.7677, Params: {'learning_rate': 0.04, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.8852, Test R2: 0.7674, Params: {'learning_rate': 0.04, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.8810, Test R2: 0.7625, Params: {'learning_rate': 0.04, 'max_depth': 5, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9417, Test R2: 0.7837, Params: {'learning_rate': 0.04, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9476, Test R2: 0.7844, Params: {'learning_rate': 0.04, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9494, Test R2: 0.7807, Params: {'learning_rate': 0.04, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9492, Test R2: 0.7790, Params: {'learning_rate': 0.04, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9465, Test R2: 0.7768, Params: {'learning_rate': 0.04, 'max_depth': 7, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9735, Test R2: 0.7860, Params: {'learning_rate': 0.04, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9804, Test R2: 0.7852, Params: {'learning_rate': 0.04, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9819, Test R2: 0.7824, Params: {'learning_rate': 0.04, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9825, Test R2: 0.7744, Params: {'learning_rate': 0.04, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9806, Test R2: 0.7654, Params: {'learning_rate': 0.04, 'max_depth': 9, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.7989, Test R2: 0.7301, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.8037, Test R2: 0.7359, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.7988, Test R2: 0.7330, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.7965, Test R2: 0.7293, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.7923, Test R2: 0.7265, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.8944, Test R2: 0.7703, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.8973, Test R2: 0.7715, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.8982, Test R2: 0.7731, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.8985, Test R2: 0.7738, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.8931, Test R2: 0.7675, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9497, Test R2: 0.7829, Params: {'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9566, Test R2: 0.7867, Params: {'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9581, Test R2: 0.7870, Params: {'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9578, Test R2: 0.7813, Params: {'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9547, Test R2: 0.7757, Params: {'learning_rate': 0.05, 'max_depth': 7, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9801, Test R2: 0.7866, Params: {'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9852, Test R2: 0.7832, Params: {'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9860, Test R2: 0.7820, Params: {'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9864, Test R2: 0.7753, Params: {'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9844, Test R2: 0.7685, Params: {'learning_rate': 0.05, 'max_depth': 9, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.8124, Test R2: 0.7379, Params: {'learning_rate': 0.06, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.8140, Test R2: 0.7432, Params: {'learning_rate': 0.06, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.8110, Test R2: 0.7401, Params: {'learning_rate': 0.06, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.8099, Test R2: 0.7382, Params: {'learning_rate': 0.06, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.8038, Test R2: 0.7340, Params: {'learning_rate': 0.06, 'max_depth': 3, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9032, Test R2: 0.7763, Params: {'learning_rate': 0.06, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9084, Test R2: 0.7768, Params: {'learning_rate': 0.06, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9084, Test R2: 0.7768, Params: {'learning_rate': 0.06, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9076, Test R2: 0.7726, Params: {'learning_rate': 0.06, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9028, Test R2: 0.7713, Params: {'learning_rate': 0.06, 'max_depth': 5, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9571, Test R2: 0.7784, Params: {'learning_rate': 0.06, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9627, Test R2: 0.7834, Params: {'learning_rate': 0.06, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9637, Test R2: 0.7851, Params: {'learning_rate': 0.06, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9647, Test R2: 0.7838, Params: {'learning_rate': 0.06, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9613, Test R2: 0.7800, Params: {'learning_rate': 0.06, 'max_depth': 7, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9844, Test R2: 0.7863, Params: {'learning_rate': 0.06, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9886, Test R2: 0.7820, Params: {'learning_rate': 0.06, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9895, Test R2: 0.7769, Params: {'learning_rate': 0.06, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9898, Test R2: 0.7765, Params: {'learning_rate': 0.06, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9874, Test R2: 0.7656, Params: {'learning_rate': 0.06, 'max_depth': 9, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.8198, Test R2: 0.7439, Params: {'learning_rate': 0.07, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.8227, Test R2: 0.7463, Params: {'learning_rate': 0.07, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.8215, Test R2: 0.7440, Params: {'learning_rate': 0.07, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.8206, Test R2: 0.7441, Params: {'learning_rate': 0.07, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.8138, Test R2: 0.7424, Params: {'learning_rate': 0.07, 'max_depth': 3, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9120, Test R2: 0.7729, Params: {'learning_rate': 0.07, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9169, Test R2: 0.7787, Params: {'learning_rate': 0.07, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9167, Test R2: 0.7791, Params: {'learning_rate': 0.07, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9166, Test R2: 0.7763, Params: {'learning_rate': 0.07, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9100, Test R2: 0.7719, Params: {'learning_rate': 0.07, 'max_depth': 5, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9630, Test R2: 0.7858, Params: {'learning_rate': 0.07, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9680, Test R2: 0.7878, Params: {'learning_rate': 0.07, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9690, Test R2: 0.7872, Params: {'learning_rate': 0.07, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9694, Test R2: 0.7825, Params: {'learning_rate': 0.07, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9669, Test R2: 0.7791, Params: {'learning_rate': 0.07, 'max_depth': 7, 'n_estimators': 300, 'subsample': 1.0}
+Train R2: 0.9875, Test R2: 0.7845, Params: {'learning_rate': 0.07, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.9915, Test R2: 0.7847, Params: {'learning_rate': 0.07, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.9917, Test R2: 0.7812, Params: {'learning_rate': 0.07, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.9918, Test R2: 0.7747, Params: {'learning_rate': 0.07, 'max_depth': 9, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9899, Test R2: 0.7676, Params: {'learning_rate': 0.07, 'max_depth': 9, 'n_estimators': 300, 'subsample': 1.0}
+
+Task completed!
+
+
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [300]
+MAX_DEPTH_SET = [5]
+MAX_DEPTH_SET = [5]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.5, 0.7, 0.8, 0.9, 1.0]
+
+
+
+Timer: 47 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.9}
+Best R2: 0.7798752085390381
+Train R2: 0.8916, Test R2: 0.7764, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.5}
+Train R2: 0.8965, Test R2: 0.7798, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.7}
+Train R2: 0.8974, Test R2: 0.7788, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.8}
+Train R2: 0.8976, Test R2: 0.7799, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.8931, Test R2: 0.7750, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 1.0}
+
+##############################
+
+
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [100, 200, 300, 400, 500, 700, 800]
+MAX_DEPTH_SET = [3]
+MAX_DEPTH_SET = [3]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.8]
+
+
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [100, 200, 300, 400, 500, 700, 800]
+MAX_DEPTH_SET = [3]
+MAX_DEPTH_SET = [3]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.9]
+
+
+
+Timer: 119 sec
+
+{'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 800, 'subsample': 0.9}
+Best R2: 0.7758715924443189
+Train R2: 0.7148, Test R2: 0.6824, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.9}
+Train R2: 0.7687, Test R2: 0.7231, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 200, 'subsample': 0.9}
+Train R2: 0.7949, Test R2: 0.7436, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.8138, Test R2: 0.7540, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 400, 'subsample': 0.9}
+Train R2: 0.8282, Test R2: 0.7638, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 500, 'subsample': 0.9}
+Train R2: 0.8486, Test R2: 0.7737, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 700, 'subsample': 0.9}
+Train R2: 0.8561, Test R2: 0.7759, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 800, 'subsample': 0.9}
+
+Task completed!
+
+
+Begin to work...
+GRID PARAMS:
+TREES_NUMBER_SET = [300, 800, 1200, 1500, 2000]
+MAX_DEPTH_SET = [3, 5]
+LEARNING_RATE_SET = [0.05]
+SUBSAMPLE_SET = [0.9]
+
+
+
+Timer: 547 sec
+
+{'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 1500, 'subsample': 0.9}
+Best R2: 0.8029381573005961
+Train R2: 0.7897, Test R2: 0.7363, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.8524, Test R2: 0.7682, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 800, 'subsample': 0.9}
+Train R2: 0.8760, Test R2: 0.7748, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 1200, 'subsample': 0.9}
+Train R2: 0.8890, Test R2: 0.7787, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 1500, 'subsample': 0.9}
+Train R2: 0.9037, Test R2: 0.7845, Params: {'learning_rate': 0.05, 'max_depth': 3, 'n_estimators': 2000, 'subsample': 0.9}
+Train R2: 0.8904, Test R2: 0.7821, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 300, 'subsample': 0.9}
+Train R2: 0.9415, Test R2: 0.7974, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 800, 'subsample': 0.9}
+Train R2: 0.9581, Test R2: 0.8015, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 1200, 'subsample': 0.9}
+Train R2: 0.9662, Test R2: 0.8029, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 1500, 'subsample': 0.9}
+Train R2: 0.9747, Test R2: 0.8019, Params: {'learning_rate': 0.05, 'max_depth': 5, 'n_estimators': 2000, 'subsample': 0.9}
+
+Task completed!
+
+

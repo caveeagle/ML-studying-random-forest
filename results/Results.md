@@ -41,16 +41,18 @@ The classic Gradient Boosting model was trained on the dataset `preproc_dataset_
 For the model accuracy metric, I used the R2 criterion (coefficient of determination).
 
 The tuned model parameters are:
-`n_estimators=800`
+`n_estimators=1200`
 `max_depth=5`
 `learning_rate=0.05`
-`subsample=0.8`
+`subsample=0.9`
 
 The mean accuracy metrics are:
-R2: **0.804**
+R2: **0.810**
 
 The model was tested for overfitting. It is stable and shows no signs of overfitting.
 
 ### KNN model
 **KNN model not suitable for this task, R2 < 0.5**
+
+
 
