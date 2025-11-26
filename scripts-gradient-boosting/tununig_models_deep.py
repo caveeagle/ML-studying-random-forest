@@ -9,8 +9,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import GridSearchCV
 
-from service_functions import send_telegramm_message
-
 import pickle
 import logging
 import time
@@ -129,7 +127,8 @@ if 'mean_train_score' in grid.cv_results_:
 
 logger.info('\nTask completed!\n\n')
 
-if(0):
+if(1):
+    from service_functions import send_telegramm_message
     send_telegramm_message("Job completed")
 
 #############################################

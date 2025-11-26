@@ -9,8 +9,6 @@ from sklearn.model_selection import train_test_split, RandomizedSearchCV
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import GridSearchCV
 
-from service_functions import send_telegramm_message
-
 import logging
 import time
 #############################################
@@ -125,6 +123,8 @@ logger.info(f"Validation R2:{r2}")
 
 logger.info(f"Job completed")
 
-send_telegramm_message("Job completed")
+if(0):
+    from service_functions import send_telegramm_message
+    send_telegramm_message("Job completed")
 
 #############################################

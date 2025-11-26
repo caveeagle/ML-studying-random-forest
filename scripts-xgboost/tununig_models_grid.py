@@ -129,6 +129,7 @@ if 'mean_train_score' in grid.cv_results_:
 logger.info('\nTask completed!\n\n')
 
 if(0):
+    from service_functions import send_telegramm_message
     send_telegramm_message("Job completed")
 
 #############################################
