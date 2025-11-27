@@ -1,0 +1,455 @@
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.002
+BATCH_SIZE = 16
+
+R2 on test set:0.738
+The best epoch: 2
+Best (min) val_loss: 0.2384
+Best train_loss: 0.1682
+Best val_loss epoch: 2
+Best train_loss epoch: 7
+Loss gap: 0.0702
+
+Cycle timer: 23 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.002
+BATCH_SIZE = 32
+
+R2 on test set:0.785
+The best epoch: 13
+Best (min) val_loss: 0.2238
+Best train_loss: 0.1225
+Best val_loss epoch: 13
+Best train_loss epoch: 15
+Loss gap: 0.1013
+
+Cycle timer: 27 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.002
+BATCH_SIZE = 64
+
+R2 on test set:0.771
+The best epoch: 8
+Best (min) val_loss: 0.2166
+Best train_loss: 0.1296
+Best val_loss epoch: 8
+Best train_loss epoch: 12
+Loss gap: 0.0871
+
+Cycle timer: 13 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.002
+BATCH_SIZE = 128
+
+R2 on test set:0.770
+The best epoch: 9
+Best (min) val_loss: 0.2262
+Best train_loss: 0.1390
+Best val_loss epoch: 9
+Best train_loss epoch: 10
+Loss gap: 0.0873
+
+Cycle timer: 7 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.002
+BATCH_SIZE = 254
+
+R2 on test set:0.779
+The best epoch: 11
+Best (min) val_loss: 0.2143
+Best train_loss: 0.1200
+Best val_loss epoch: 11
+Best train_loss epoch: 16
+Loss gap: 0.0943
+
+Cycle timer: 8 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.001
+BATCH_SIZE = 16
+
+R2 on test set:0.784
+The best epoch: 9
+Best (min) val_loss: 0.2219
+Best train_loss: 0.1288
+Best val_loss epoch: 9
+Best train_loss epoch: 14
+Loss gap: 0.0931
+
+Cycle timer: 44 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.001
+BATCH_SIZE = 32
+
+R2 on test set:0.789
+The best epoch: 7
+Best (min) val_loss: 0.2181
+Best train_loss: 0.1403
+Best val_loss epoch: 7
+Best train_loss epoch: 12
+Loss gap: 0.0778
+
+Cycle timer: 20 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.001
+BATCH_SIZE = 64
+
+R2 on test set:0.773
+The best epoch: 11
+Best (min) val_loss: 0.2143
+Best train_loss: 0.1235
+Best val_loss epoch: 11
+Best train_loss epoch: 15
+Loss gap: 0.0908
+
+Cycle timer: 15 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.001
+BATCH_SIZE = 128
+
+R2 on test set:0.781
+The best epoch: 13
+Best (min) val_loss: 0.2196
+Best train_loss: 0.1326
+Best val_loss epoch: 13
+Best train_loss epoch: 18
+Loss gap: 0.0871
+
+Cycle timer: 11 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.001
+BATCH_SIZE = 254
+
+R2 on test set:0.770
+The best epoch: 14
+Best (min) val_loss: 0.2343
+Best train_loss: 0.1310
+Best val_loss epoch: 14
+Best train_loss epoch: 19
+Loss gap: 0.1033
+
+Cycle timer: 9 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0005
+BATCH_SIZE = 16
+
+R2 on test set:0.753
+The best epoch: 5
+Best (min) val_loss: 0.2057
+Best train_loss: 0.1691
+Best val_loss epoch: 5
+Best train_loss epoch: 8
+Loss gap: 0.0366
+
+Cycle timer: 23 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0005
+BATCH_SIZE = 32
+
+R2 on test set:0.794
+The best epoch: 13
+Best (min) val_loss: 0.2304
+Best train_loss: 0.1267
+Best val_loss epoch: 13
+Best train_loss epoch: 18
+Loss gap: 0.1036
+
+Cycle timer: 28 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0005
+BATCH_SIZE = 64
+
+R2 on test set:0.779
+The best epoch: 9
+Best (min) val_loss: 0.2243
+Best train_loss: 0.1720
+Best val_loss epoch: 9
+Best train_loss epoch: 10
+Loss gap: 0.0523
+
+Cycle timer: 10 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0005
+BATCH_SIZE = 128
+
+R2 on test set:0.774
+The best epoch: 22
+Best (min) val_loss: 0.2101
+Best train_loss: 0.1167
+Best val_loss epoch: 22
+Best train_loss epoch: 26
+Loss gap: 0.0933
+
+Cycle timer: 15 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0005
+BATCH_SIZE = 254
+
+R2 on test set:0.765
+The best epoch: 11
+Best (min) val_loss: 0.2143
+Best train_loss: 0.1648
+Best val_loss epoch: 11
+Best train_loss epoch: 16
+Loss gap: 0.0495
+
+Cycle timer: 8 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0003
+BATCH_SIZE = 16
+
+R2 on test set:0.787
+The best epoch: 9
+Best (min) val_loss: 0.1947
+Best train_loss: 0.1603
+Best val_loss epoch: 9
+Best train_loss epoch: 14
+Loss gap: 0.0345
+
+Cycle timer: 39 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0003
+BATCH_SIZE = 32
+
+R2 on test set:0.770
+The best epoch: 13
+Best (min) val_loss: 0.2196
+Best train_loss: 0.1334
+Best val_loss epoch: 13
+Best train_loss epoch: 17
+Loss gap: 0.0861
+
+Cycle timer: 28 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0003
+BATCH_SIZE = 64
+
+R2 on test set:0.790
+The best epoch: 12
+Best (min) val_loss: 0.2156
+Best train_loss: 0.1598
+Best val_loss epoch: 12
+Best train_loss epoch: 16
+Loss gap: 0.0558
+
+Cycle timer: 15 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0003
+BATCH_SIZE = 128
+
+R2 on test set:0.780
+The best epoch: 16
+Best (min) val_loss: 0.2148
+Best train_loss: 0.1617
+Best val_loss epoch: 16
+Best train_loss epoch: 18
+Loss gap: 0.0531
+
+Cycle timer: 11 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0003
+BATCH_SIZE = 254
+
+R2 on test set:0.769
+The best epoch: 28
+Best (min) val_loss: 0.2239
+Best train_loss: 0.1472
+Best val_loss epoch: 28
+Best train_loss epoch: 30
+Loss gap: 0.0766
+
+Cycle timer: 13 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0001
+BATCH_SIZE = 16
+
+R2 on test set:0.781
+The best epoch: 11
+Best (min) val_loss: 0.2277
+Best train_loss: 0.1686
+Best val_loss epoch: 11
+Best train_loss epoch: 16
+Loss gap: 0.0592
+
+Cycle timer: 45 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0001
+BATCH_SIZE = 32
+
+R2 on test set:0.785
+The best epoch: 18
+Best (min) val_loss: 0.2047
+Best train_loss: 0.1682
+Best val_loss epoch: 18
+Best train_loss epoch: 21
+Loss gap: 0.0365
+
+Cycle timer: 32 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0001
+BATCH_SIZE = 64
+
+R2 on test set:0.763
+The best epoch: 30
+Best (min) val_loss: 0.2364
+Best train_loss: 0.1682
+Best val_loss epoch: 30
+Best train_loss epoch: 30
+Loss gap: 0.0682
+
+Cycle timer: 26 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0001
+BATCH_SIZE = 128
+
+R2 on test set:0.791
+The best epoch: 29
+Best (min) val_loss: 0.1868
+Best train_loss: 0.1759
+Best val_loss epoch: 29
+Best train_loss epoch: 30
+Loss gap: 0.0109
+
+Cycle timer: 16 sec
+
+End of cycle 
+
+
+
+TRAIN WITH PARAMS:
+LEARNING_RATE = 0.0001
+BATCH_SIZE = 254
+
+R2 on test set:0.746
+The best epoch: 30
+Best (min) val_loss: 0.2515
+Best train_loss: 0.1948
+Best val_loss epoch: 30
+Best train_loss epoch: 30
+Loss gap: 0.0566
+
+Cycle timer: 14 sec
+
+End of cycle 
+
+
+
+Overall timer: 502 sec
+
+
+Task completed!

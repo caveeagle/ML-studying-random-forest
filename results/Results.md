@@ -67,5 +67,23 @@ The other parameters also have been tested, but their default values proved to b
 The mean accuracy metrics are:
 R2: **0.800**
 
+### 5. Results for FNN (Neural network)
+R2: **0.779**
 
+#### Parameters:
+Layers - **4** hidden layers:
+
+`x = Dense(128, activation="relu")(input_layer)`
+`x = Dense(64, activation="relu")(x)`
+`x = Dense(32, activation="relu")(x)`
+`output = Dense(1)(x)`
+
+Tuning parametrs:
+
+`learning_rate = **0.0003**`
+`batch_size = **16**`
+
+The best epoch: 14 (with Early stopping)
+Best val_loss: 0.2625
+Best train_loss: 0.1182
 

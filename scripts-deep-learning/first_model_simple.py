@@ -160,7 +160,7 @@ print(f"R2 on test set:{r2:.3f}")
 #############################################
 #############################################
 
-if(0):
+if(1):
     import matplotlib.pyplot as plt
     
     plt.figure(figsize=(8, 5))
