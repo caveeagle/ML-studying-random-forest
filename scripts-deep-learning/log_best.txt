@@ -35,3 +35,12 @@ Timer: 38 sec
 
 
 Task completed!
+R2 on test set:0.767
+The best epoch: 10
+Best (min) val_loss: 0.2045
+Best train_loss: 0.1420
+Best val_loss epoch: 10
+Best train_loss epoch: 15
+Loss gap: 0.0624
+
+Task completed!
